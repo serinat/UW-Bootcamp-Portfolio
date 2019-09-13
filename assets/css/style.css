@@ -1,6 +1,7 @@
 a {
     text-decoration: none;
     padding: 10px;
+    color: #777777;
 }
 
 .topnav-right {
@@ -9,4 +10,29 @@ a {
 
 img {
     float: left;
+}
+
+header, .container {
+
+    width: 960px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.white {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 230px;
+    text-align: center;
+}
+
+p {
+    color: #777777;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
