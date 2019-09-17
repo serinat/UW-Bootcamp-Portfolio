@@ -1,6 +1,16 @@
-a {
+header a {
     text-decoration: none;
     padding: 10px;
+    color: #777777;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    padding-left: 10px;
     color: #777777;
 }
 
@@ -12,9 +22,26 @@ img {
     float: left;
 }
 
+header {
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header, .container {
 
     width: 960px;
+    margin: auto;
+}
+
+header h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 230px;
+    text-align: center;
+    padding: 20px;
 }
 
 h1 {
@@ -22,12 +49,6 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.white {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    width: 230px;
-    text-align: center;
-}
 
 p {
     color: #777777;
@@ -35,4 +56,5 @@ p {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
 }
