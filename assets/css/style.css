@@ -109,8 +109,16 @@ input[type=submit]:hover {
     margin-top: 50px;
 }
 
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+
 .container-portfolio {
+    
     width: 960px;
+    height: 500px;
     font-family: 'Arial, 'Arial, Helvetica, sans-serif;
     background: #ffffff;
     border: solid #cccccc 2px;
@@ -153,6 +161,20 @@ hr {
 }
 
 #cheesy {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    text-align: center;
+}
+
+#cookie {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    text-align: center;
+}
+
+#art {
     background-color: #4aaaa5;
     color: #ffffff;
     width: 200px;
